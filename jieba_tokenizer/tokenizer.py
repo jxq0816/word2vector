@@ -52,5 +52,5 @@ class JiebaTokenizer(object):
 
 if __name__ == '__main__':
     tokenizer = JiebaTokenizer()
-    ret = tokenizer.cut_sentence("这是一句话")
+    ret = tokenizer.cut_sentence("我爱我的祖国")
     print(ret)
