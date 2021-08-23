@@ -31,9 +31,7 @@ class AvgWord2vec(object):
         # self.w2v_model = models.Word2Vec.load(w2v_model_path)
 
         # 加载独立模型文件
-        self.w2v_model = gensim.models.KeyedVectors.load_word2vec_format(MODEL_PATH,
-                                                                binary=True)
-
+        self.w2v_model = gensim.models.KeyedVectors.load_word2vec_format(MODEL_PATH,binary=True)
         self.tokenizer = JiebaTokenizer()
 
     def _load_w2v_model(self, path):
