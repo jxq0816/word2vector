@@ -7,3 +7,14 @@
 *.iml
 out
 gen
+example/.DS_Store
+wiki_chinese/dataset/.DS_Store
+wiki_chinese/dataset/zhwiki/.DS_Store
+wiki_chinese/dataset/zhwiki/BB/wiki_corpus
+wiki_chinese/model/wiki_corpus.bin
+wiki_chinese/model/wiki_corpus.bin.syn1neg.npy
+wiki_chinese/model/wiki_corpus.bin.wv.vectors.npy
+wiki_chinese/model/wiki_corpus.model
+wiki_chinese/model/wiki_corpus.model.syn1neg.npy
+wiki_chinese/model/wiki_corpus.model.wv.vectors.npy
+wiki_chinese/model/wiki_corpus_binary.bin
